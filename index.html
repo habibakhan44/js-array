@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Manipulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Array Manipulator</h1>
+
+        <div class="display-section"></div>
+
+        <div class="input-section">
+            <input type="text" class="array-input" placeholder="Enter an element">
+            <button class="btn add-element">Add Element</button>
+        </div>
+
+        <div class="control-section">
+        
+            <button class="btn control-btn" onclick="handlePush()">Push</button>
+            <button class="btn control-btn" onclick="handlePop()">Pop</button>
+            <button class="btn control-btn" onclick="handleShift()">Shift</button>
+            <button class="btn control-btn" onclick="handleUnshift()">Unshift</button>
+            <button class="btn control-btn" onclick="handleSlice()">Slice</button>
+            <button class="btn control-btn" onclick="handleSplice()">Splice</button>
+        </div>
+
+        <div class="result-section"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
